@@ -1,0 +1,124 @@
+# Tableau Dashboard Project: Customer Churn Analysis  
+
+**Prepared by:** Jose De Leon  
+**Date:** June 21, 2025  
+
+---
+
+## 📊 Project Overview  
+This project showcases the development of an **interactive business intelligence dashboard** in Tableau using the **Superstore dataset**. Designed with a focus on **data storytelling and decision support**, the dashboard empowers users to explore sales and profit performance across regions, products, and customer segments.  
+
+Key features include:  
+- **Six dynamic visualizations** (bar, line, bubble, scatter, treemap, and map).  
+- **Two date-range parameters** with calculated fields for custom time filtering.  
+- **One list-based parameter** for interactive segment analysis.  
+- A **unified dashboard** that allows executives and analysts to adjust filters and instantly see results.  
+
+This project demonstrates strong capabilities in **Tableau, business intelligence, and interactive reporting**. By integrating parameters and calculated fields, the dashboard goes beyond static visuals to deliver **self-service analytics** that support data-driven decision-making.  
+
+---
+
+## 📁 Repository Structure  
+- `CustomerChurn.twbx` → Tableau packaged workbook (dashboard + data model).  
+- `dashboard_overview1.png` → Dashboard overview (default: Consumer segment, full date range).  
+- `dashboard_overview2.png` → Dashboard overview (Corporate segment, narrower date range).  
+- `dashboard1.png` → Top 10 Regions (Stacked Bar Chart).  
+- `dashboard2.png` → Sales Over Time (Line Chart).  
+- `dashboard3.png` → Sales by Region (Bubble Plot).  
+- `dashboard4.png` → Sales by Profit (Scatter Plot).  
+- `dashboard5.png` → Profit by Market (Map).  
+- `dashboard6.png` → Top 10 Products (Treemap).  
+- `start_date_param.png`, `end_date_param.png` → Date parameter configuration.  
+- `segment_param.png` → Segment parameter configuration.  
+- `date_range_filter.png`, `segment_filter.png` → Calculated fields.  
+- `.gitignore` → Ignore rules for Tableau/temporary files.  
+- `LICENSE` → MIT open-source license.  
+- `README.md` → Project documentation.  
+
+---
+
+## 📸 Dashboard Demonstration
+![Dashboard](dashboard1.png) 
+
+Start Date: 01/01/2012
+
+End Date: 12/31/2015
+
+Segment Parameter: Consumer
+
+---
+
+## 🔍 Visualizations  
+
+### 1. Top 10 Regions (Stacked Bar Chart)  
+Filters: Region, Market, Category, Date Range, Segment  
+![Top 10 Regions](dashboard1.png)  
+
+### 2. Sales Over Time (Line Chart)  
+Filters: Date Range, Market, Segment, Region  
+![Sales Over Time](dashboard2.png)  
+
+### 3. Sales by Region (Bubble Plot)  
+Filters: Date Range, Market, Segment, Region  
+![Sales by Region](dashboard3.png)  
+
+### 4. Sales by Profit (Scatter Plot)  
+Filters: Date Range, Market, Region, Category, Segment  
+![Sales by Profit](dashboard4.png)  
+
+### 5. Profit by Market (Map)  
+Filters: Date Range, Market, Segment, Region  
+![Profit by Market](dashboard5.png)  
+
+### 6. Top 10 Products (Treemap)  
+Filters: Date Range, Market, Segment, Region  
+![Top 10 Products](dashboard6.png)  
+
+---
+
+## ⏳ Parameters & Calculated Fields  
+
+### Date Range Parameters  
+- **Start Date Parameter**  
+  Range: 01/01/2012 → 12/31/2015  
+  Default: 12/16/2012  
+  ![Start Date Parameter](start_date_param.png)  
+
+- **End Date Parameter**  
+  Range: 01/01/2012 → 12/31/2015  
+  Default: 01/29/2014  
+  ![End Date Parameter](end_date_param.png)  
+
+- **Date Range Filter (Calculated Field)**  
+```tableau
+IF [Order.Date] >= [Start date] AND [Order.Date] <= [End Date] THEN 1
+ELSE 0
+END
+```
+
+---
+
+## 🛠 Tools Used
+
+- Tableau Desktop (visualization & dashboard design)
+
+- Superstore dataset (2016 cleaned version)
+
+---
+
+
+## ✅ Conclusion
+
+This project highlights the ability to create dynamic, user-driven dashboards in Tableau. By combining multiple chart types with date and segment parameters, we built an interactive visualization tool that enables decision-makers to explore data from different perspectives.
+
+The result is a professional dashboard that demonstrates business intelligence, interactivity, and data storytelling skills in Tableau, skills directly transferable to real-world analytics and reporting roles.
+
+---
+
+## 📚 References
+
+- Tableau Software. (2024). Tableau Desktop: Visual Analytics. Retrieved from https://www.tableau.com/
+
+- Tableau Help. (2024). Create Parameters. Retrieved from https://help.tableau.com/current/pro/desktop/en-us/parameters_create.htm
+
+- Superstore Dataset. (n.d.). Sample data available in Tableau Desktop.
