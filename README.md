@@ -17,7 +17,7 @@ Key features include:
 - One list-based parameter for interactive segment analysis.  
 - A unified dashboard that allows executives and analysts to adjust filters and instantly see results.  
 
-This project demonstrates strong capabilities in **Tableau, business intelligence, and interactive reporting**. By integrating parameters and calculated fields, the dashboard goes beyond static visuals to deliver **self-service analytics** that support data-driven decision-making.  
+This project demonstrates strong capabilities in Tableau, business intelligence, and interactive reporting. By integrating parameters and calculated fields, the dashboard goes beyond static visuals to deliver self-service analytics that support data-driven decision-making.  
 
 ---
 
