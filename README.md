@@ -20,7 +20,7 @@ This project demonstrates strong capabilities in **Tableau, business intelligenc
 
 ## 📂 Project Files  
 - [`Dashboard - Global Sales`](Dashboard%20-%20Global%20Sales%20-%20github.twbx)
-- [`global_superstore_2016_cleaned.csv`](global_superstore_2016_cleaned.csv)
+- [`CSV File - raw data`](global_superstore_2016_cleaned.csv)
 - [`Plots`](plots/)
 - [`Project Tableau Dashboard PDF`](Project%20Tableau%20Dashboard%20github.pdf)
 - [`LICENSE`](LICENSE)
