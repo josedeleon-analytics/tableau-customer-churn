@@ -19,15 +19,9 @@ This project demonstrates strong capabilities in **Tableau, business intelligenc
 ---
 
 ## 📂 Project Files  
-- [`Tableau packaged workbook`](CustomerChurn.twbx)
-- [`CSV File`](CustomerChurn.twbx)
-- [`Plots`](plots/)   
-- [`README.md`](README.md) 
-
-### ⚙️ Project meta
 - [`Dashboard - Global Sales - github.twbx`](Dashboard%20-%20Global%20Sales%20-%20github.twbx) → Tableau packaged workbook (dashboard + embedded data extract).  
 - [`global_superstore_2016_cleaned.csv`](global_superstore_2016_cleaned.csv) → Raw source dataset used for building the dashboard.  
-- [`plots/`](plots/) → Static PNG plots exported from Tableau (used in the README).  
+- [`Plots`](plots/) → Static PNG plots exported from Tableau (used in the README).  
 - [`LICENSE`](LICENSE) → MIT open-source license.  
 - [`README.md`](README.md) → Project documentation.  
 
