@@ -122,7 +122,9 @@ The result is a professional dashboard that demonstrates business intelligence, 
 
 ## 👤 Author
 
-**José De León**  
-[LinkedIn](https://www.linkedin.com/in/jose-de-leon-analytics/) | [Portfolio](https://github.com/josedeleon-analytics)
+Jose De Leon
+Master’s in Analytics Candidate, Northeastern University
+📬 [Email me](mailto:j.angel2294@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jose-de-leon-analytics/)
 
 ---
