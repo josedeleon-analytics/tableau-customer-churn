@@ -1,4 +1,7 @@
 # Tableau Dashboard Project: Customer Churn Analysis  
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) 
+![Last Commit](https://img.shields.io/github/last-commit/josedeleon-analytics/tableau-customer-churn) 
+![Tableau](https://img.shields.io/badge/Tableau-Dashboards-blue?logo=tableau&logoColor=white)
 
 **Prepared by:** Jose De Leon  
 **Date:** June 21, 2025  
