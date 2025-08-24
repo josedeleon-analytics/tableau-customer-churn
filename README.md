@@ -18,22 +18,18 @@ This project demonstrates strong capabilities in **Tableau, business intelligenc
 
 ---
 
-## 📁 Repository Structure  
-- `CustomerChurn.twbx` → Tableau packaged workbook (dashboard + data model).  
-- `dashboard_overview1.png` → Dashboard overview (default: Consumer segment, full date range).  
-- `dashboard_overview2.png` → Dashboard overview (Corporate segment, narrower date range).  
-- `dashboard1.png` → Top 10 Regions (Stacked Bar Chart).  
-- `dashboard2.png` → Sales Over Time (Line Chart).  
-- `dashboard3.png` → Sales by Region (Bubble Plot).  
-- `dashboard4.png` → Sales by Profit (Scatter Plot).  
-- `dashboard5.png` → Profit by Market (Map).  
-- `dashboard6.png` → Top 10 Products (Treemap).  
-- `start_date_param.png`, `end_date_param.png` → Date parameter configuration.  
-- `segment_param.png` → Segment parameter configuration.  
-- `date_range_filter.png`, `segment_filter.png` → Calculated fields.  
-- `.gitignore` → Ignore rules for Tableau/temporary files.  
-- `LICENSE` → MIT open-source license.  
-- `README.md` → Project documentation.  
+## 📂 Project Files  
+- [`Tableau packaged workbook`](CustomerChurn.twbx)
+- [`CSV File`](CustomerChurn.twbx)
+- [`Plots`](plots/)   
+- [`README.md`](README.md) 
+
+### ⚙️ Project meta
+- [`Dashboard - Global Sales - github.twbx`](Dashboard%20-%20Global%20Sales%20-%20github.twbx) → Tableau packaged workbook (dashboard + embedded data extract).  
+- [`global_superstore_2016_cleaned.csv`](global_superstore_2016_cleaned.csv) → Raw source dataset used for building the dashboard.  
+- [`plots/`](plots/) → Static PNG plots exported from Tableau (used in the README).  
+- [`LICENSE`](LICENSE) → MIT open-source license.  
+- [`README.md`](README.md) → Project documentation.  
 
 ---
 
