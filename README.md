@@ -38,7 +38,10 @@ This project demonstrates strong capabilities in **Tableau, business intelligenc
 ---
 
 ## 📸 Dashboard Demonstration
-![Dashboard](dashboard1.png) 
+
+[![Dashboard Preview](plots/Dashboard.png)](https://public.tableau.com/views/Dashboard-GlobalSales-github/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+
+🔗 [View Full Dashboard on Tableau Public](https://public.tableau.com/views/Dashboard-GlobalSales-github/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Start Date: 01/01/2012
 
@@ -52,27 +55,28 @@ Segment Parameter: Consumer
 
 ### 1. Top 10 Regions (Stacked Bar Chart)  
 Filters: Region, Market, Category, Date Range, Segment  
-![Top 10 Regions](dashboard1.png)  
+![Top 10 Regions](plots/top%2010%20regions.png)  
 
 ### 2. Sales Over Time (Line Chart)  
 Filters: Date Range, Market, Segment, Region  
-![Sales Over Time](dashboard2.png)  
+![Sales Over Time](plots/Sales%20Over%20Time.png)  
 
 ### 3. Sales by Region (Bubble Plot)  
 Filters: Date Range, Market, Segment, Region  
-![Sales by Region](dashboard3.png)  
+![Sales by Region](plots/Sales%20by%20Region.png)  
 
 ### 4. Sales by Profit (Scatter Plot)  
 Filters: Date Range, Market, Region, Category, Segment  
-![Sales by Profit](dashboard4.png)  
+![Sales by Profit](plots/Sales%20By%20Profit.png)  
 
 ### 5. Profit by Market (Map)  
 Filters: Date Range, Market, Segment, Region  
-![Profit by Market](dashboard5.png)  
+![Profit by Market](plots/Profit%20by%20Market.png)  
 
 ### 6. Top 10 Products (Treemap)  
 Filters: Date Range, Market, Segment, Region  
-![Top 10 Products](dashboard6.png)  
+![Top 10 Products](plots/Top%2010%20Products.png)  
+  
 
 ---
 
@@ -82,12 +86,12 @@ Filters: Date Range, Market, Segment, Region
 - **Start Date Parameter**  
   Range: 01/01/2012 → 12/31/2015  
   Default: 12/16/2012  
-  ![Start Date Parameter](start_date_param.png)  
+  ![Start Date Parameter](plots/Start%20date.png)  
 
 - **End Date Parameter**  
   Range: 01/01/2012 → 12/31/2015  
   Default: 01/29/2014  
-  ![End Date Parameter](end_date_param.png)  
+  ![End Date Parameter](plots/End%20Date.png)  
 
 - **Date Range Filter (Calculated Field)**  
 ```tableau
