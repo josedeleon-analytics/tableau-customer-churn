@@ -9,13 +9,13 @@
 ---
 
 ## 📊 Project Overview  
-This project showcases the development of an **interactive business intelligence dashboard** in Tableau using the **Superstore dataset**. Designed with a focus on **data storytelling and decision support**, the dashboard empowers users to explore sales and profit performance across regions, products, and customer segments.  
+This project showcases the development of an interactive business intelligence dashboard in Tableau using the Superstore dataset. Designed with a focus on data storytelling and decision support, the dashboard empowers users to explore sales and profit performance across regions, products, and customer segments.  
 
 Key features include:  
-- **Six dynamic visualizations** (bar, line, bubble, scatter, treemap, and map).  
-- **Two date-range parameters** with calculated fields for custom time filtering.  
-- **One list-based parameter** for interactive segment analysis.  
-- A **unified dashboard** that allows executives and analysts to adjust filters and instantly see results.  
+- Six dynamic visualizations (bar, line, bubble, scatter, treemap, and map).  
+- Two date-range parameters with calculated fields for custom time filtering.  
+- One list-based parameter for interactive segment analysis.  
+- A unified dashboard that allows executives and analysts to adjust filters and instantly see results.  
 
 This project demonstrates strong capabilities in **Tableau, business intelligence, and interactive reporting**. By integrating parameters and calculated fields, the dashboard goes beyond static visuals to deliver **self-service analytics** that support data-driven decision-making.  
 
