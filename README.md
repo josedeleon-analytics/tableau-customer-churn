@@ -20,7 +20,7 @@ This project demonstrates strong capabilities in **Tableau, business intelligenc
 
 ## 📂 Project Files  
 - [`Dashboard - Global Sales`](Dashboard%20-%20Global%20Sales%20-%20github.twbx)
-- [`CSV File - raw data`](global_superstore_2016_cleaned.csv)
+- [`Dataset`](global_superstore_2016_cleaned.csv)
 - [`Plots`](plots/)
 - [`Project Tableau Dashboard PDF`](Project%20Tableau%20Dashboard%20github.pdf)
 - [`LICENSE`](LICENSE)
@@ -117,3 +117,12 @@ The result is a professional dashboard that demonstrates business intelligence, 
 - Tableau Help. (2024). Create Parameters. Retrieved from https://help.tableau.com/current/pro/desktop/en-us/parameters_create.htm
 
 - Superstore Dataset. (n.d.). Sample data available in Tableau Desktop.
+
+---
+
+## 👤 Author
+
+**José De León**  
+[LinkedIn](https://www.linkedin.com/in/jose-de-leon-analytics/) | [Portfolio](https://github.com/josedeleon-analytics)
+
+---
